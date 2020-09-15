@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#1E88E5"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#fff"
+            android:id="@+id/weather_date_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2020-10-20 15:00:00"
+            android:layout_weight="25"/>
+
+        <TextView
+            android:fontFamily="sans-serif-black"
+            android:textColor="#fff"
+            android:id="@+id/weather_temp_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:textAlignment="center"
+            android:text="36'C"/>
+
+        <ImageView
+            android:id="@+id/weather_icon_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#fff"
+            android:id="@+id/weather_description_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="description"
+            android:layout_weight="25"/>
+</LinearLayout>
