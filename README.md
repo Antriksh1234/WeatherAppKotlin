@@ -1,6 +1,9 @@
 # WeatherAppKotlin
 Weather app using openweather API
 
+## Video
+[![Watch the video](https://img.youtube.com/vi/qegPo1lTZnU/maxresdefault.jpg)](https://www.youtube.com/watch?v=qegPo1lTZnU)
+
 ## Features-
 1. Shows you weather data of all major cities.
 2. Shows you weather data of your current selected city.
